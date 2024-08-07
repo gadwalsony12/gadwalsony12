@@ -1,0 +1,12 @@
+<h2>different types of directives</h2>
+
+<p>ngClass: to set the css class dynamically on an element</p>
+
+<p [ngClass] = "'color'">with string</p>
+<p [ngClass] = "['color','font']">with array</p>
+<p [ngClass] = "{'color': value}">with object</p>
+
+<h3>ngStyle : dynamically set inline styles on elements.</h3>
+
+<p [ngStyle] = "{'color':'blue'}">basic usage</p>
+<p [ngStyle] = "{'color':textcolor}">using variables</p>
