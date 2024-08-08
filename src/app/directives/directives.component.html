@@ -10,3 +10,22 @@
 
 <p [ngStyle] = "{'color':'blue'}">basic usage</p>
 <p [ngStyle] = "{'color':textcolor}">using variables</p>
+
+<p>Pipes</p>
+in number pipe - there will be three parts. minimum interger digits, 2-2 -> minimum fraction and max fractions digit numbers to displayed.
+
+<p>{{123.6708776 | number :'4.2-2'}}</p>
+<p>{{date | date :'fullDate' }}</p>
+
+<p>{{'hello' | uppercase }}</p>
+<p>{{'hi' | lowercase}}</p>
+<p>{{number | percent :'1.2-2'}}</p>
+<p>{{arr | slice : 1:2}}</p>
+<p>{{obj | json }}</p>
+
+
+
+
+
+
+

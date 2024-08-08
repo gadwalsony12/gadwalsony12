@@ -8,7 +8,11 @@ import { Component } from '@angular/core';
 export class DirectivesComponent {
 
   value = true;
-  textcolor = 'yellow'
+  textcolor = 'yellow';
+  number = 0.879;
+  arr = ['a','b','c'];
+  obj = {key:1, key2:2};
+  date = new Date();
   constructor(){
 
   }
